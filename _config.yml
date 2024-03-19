@@ -11,7 +11,7 @@ locale                   : "en-US"
 title                    : "Jiandong Xing"
 title_separator          : "-"
 name                     : &name "Jiandong Xing"
-description              : &description "A master student at Beihang University. Focusing on autonomous driving, vehicle planning and control."
+description              : &description ""
 url                      : https://fengyeying.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "fengyeying/fengyeying.github.io"
@@ -24,7 +24,7 @@ author:
   avatar           : "xingjiandong.jpg" # the name of the image file in /images/ (e.g., "avatar.jpg")
   name             : "Jiandong Xing"
   pronouns         : # example: "she/her"   
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : "A master student at Beihang University. Focusing on autonomous driving, vehicle planning and control."
   location         : "BeiJing"
   employer         : "Beihang University"
   uri              : # URL
@@ -32,7 +32,7 @@ author:
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : 
   impactstory      : # URL
   orcid            : 
   pubmed           : 
@@ -42,7 +42,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "https://github.com/fengyeying"
+  github           : "fengyeying"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
@@ -107,7 +107,7 @@ staticman:
       options:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 atom_feed:
-  hide                   : false     # change to true to hide the RSS feed in the footer
+  hide                   : true     # change to true to hide the RSS feed in the footer
   path                   : # blank (default) uses feed.xml
 
 
@@ -136,7 +136,7 @@ social:
 
 # Analytics
 analytics:
-  provider               :  "google-universal" # false (default), "google", "google-universal", "google-analytics-4", "custom"
+  provider               :  "false" # false (default), "google", "google-universal", "google-analytics-4", "custom"
   google:
     tracking_id          :
 
