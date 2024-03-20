@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Jiandong Xing"
+title                    : "Homepage"
 title_separator          : "-"
 name                     : &name "Jiandong Xing"
 description              : &description ""
@@ -24,7 +24,7 @@ author:
   avatar           : "xingjiandong.jpg" # the name of the image file in /images/ (e.g., "avatar.jpg")
   name             : "Jiandong Xing"
   pronouns         : # example: "she/her"   
-  bio              : "A master student at Beihang University. Focusing on autonomous driving, vehicle planning and control."
+  bio              : "A master student at Beihang University. Focusing on decesion-making, autonomous driving, vehicle planning and control."
   location         : "BeiJing"
   employer         : "Beihang University"
   uri              : # URL
