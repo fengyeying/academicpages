@@ -199,16 +199,16 @@ kramdown:
 
 # Collections
 collections:
-  teaching:
+  news:
     output: true
     permalink: /:collection/:path/
   publications:
     output: true
     permalink: /:collection/:path/
-  portfolio:
+  honors:
     output: true
     permalink: /:collection/:path/
-  talks:
+  educations:
     output: true
     permalink: /:collection/:path/
 
@@ -236,7 +236,7 @@ defaults:
   # _teaching
   - scope:
       path: ""
-      type: teaching
+      type: news
     values:
       layout: single
       author_profile: true
@@ -254,7 +254,7 @@ defaults:
   # _portfolio
   - scope:
       path: ""
-      type: portfolio
+      type: honors
     values:
       layout: single
       author_profile: true
@@ -263,9 +263,9 @@ defaults:
   # _talks
   - scope:
       path: ""
-      type: talks
+      type: educations
     values:
-      layout: talk
+      layout: single
       author_profile: true
       share: true
 
